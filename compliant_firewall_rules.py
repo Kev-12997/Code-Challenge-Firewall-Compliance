@@ -17,7 +17,7 @@ IP_ADDRESSES = set([ipaddress.IPv4Address("236.216.246.119"), #List of Ip's that
             ipaddress.IPv4Address("21.90.154.237"),
             ipaddress.IPv4Address("91.172.88.105")])
 
-FIREWALL_RULES_ENDPOINT = "https://g326av89lk.execute-api.us-east-1.amazonaws.com/prod/rules" #Endpoint with firewall rules
+FIREWALL_RULES_ENDPOINT = "https://g326av89lk.execute-api.us-east-1.amazonaws.com/prod/rules"
              
 async def get_firewall_rules(pagination=None):
     """
