@@ -115,10 +115,10 @@ def check_ip_addresses(rule):
     # If no IP from IPADDRESSES is found in the network
     return compliant_rule(rule)
 
-"""
-Returns the COMPLIANT json
-"""
 def compliant_rule(rule):
+    """
+    Returns the COMPLIANT json
+    """
     return {"RuleId": rule['RuleId'],
             "Compliance": "COMPLIANT"}
             
